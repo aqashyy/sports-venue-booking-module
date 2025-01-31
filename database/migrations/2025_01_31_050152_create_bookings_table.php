@@ -15,11 +15,10 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->foreignId('venue_id')->constrained()->onDelete('cascade');
+            $table->date('booking_date');
             $table->dateTime('start_time');
             $table->dateTime('end_time');
             $table->timestamps();
-            // set these columns are unique
-            $table->unique(['venue_id', 'start_time', 'end_time']);
         });
     }
 
