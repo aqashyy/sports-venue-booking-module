@@ -18,4 +18,5 @@ Route::prefix('venue')->middleware('auth:sanctum')->group(function () {
 
     Route::post('book',[BookingController::class,'bookNow']);
     Route::get('list',[VenueController::class,'listVenues']);
+    Route::get('rank',[VenueController::class,'rankVenues']);
 });
