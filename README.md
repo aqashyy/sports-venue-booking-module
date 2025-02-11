@@ -1,7 +1,7 @@
 # 🏸 Sports Venue Booking System
 
 ## 📜 Description
-The **Sports Venue Booking System** is a **Laravel 11**-based RESTful API that allows users to **book badminton venues** while ensuring:
+The **Sports Venue Booking System** is a **Laravel 11**-based RESTful API that allows users to **book sports venues** while ensuring:
 - **No overlapping bookings**
 - **Time slot availability**
 - **Venue working hours compliance**
@@ -75,10 +75,10 @@ The system is secured using **Laravel Sanctum** for authentication.
 ---
 ## 🛠 How the Booking System Works
 
-**1️⃣ Users can book venues only during working hours**
-**2️⃣ Overlapping bookings are not allowed, but adjacent bookings are permitted**
-**3️⃣ Bookings are restricted to one month in advance**
-**4️⃣ Venues are ranked monthly:**
+ **1️⃣ Users can book venues only during working hours**  
+ **2️⃣ Overlapping bookings are not allowed, but adjacent bookings are permitted**  
+ **3️⃣ Bookings are restricted to one month in advance**  
+ **4️⃣ Venues are ranked monthly:**
 * A: More than 15 bookings
 * B: Between 10-15 bookings
 * C: Between 5-10 bookings
